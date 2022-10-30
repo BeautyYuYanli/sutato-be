@@ -29,3 +29,6 @@ def add_one():
         res = make_response("OK")
     res.headers.add("Access-Control-Allow-Origin", "*")
     return res
+
+if __name__ == '__main__':
+    app.run()
